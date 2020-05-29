@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+		body{
+		  background-color:grey;
+		  color:white;
+		 }
+    </style>
+</head>
+<script>
+
+    function abc() {
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "cricketad1.png");
+        x.setAttribute("width", "304");
+        x.setAttribute("height", "228");
+        x.setAttribute("alt", "The Pulpit Rock");
+        document.body.appendChild(x);
+    }
+    function xyz() {
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "cricketad2.png");
+        x.setAttribute("width", "304");
+        x.setAttribute("height", "228");
+        x.setAttribute("alt", "The Pulpit Rock");
+        document.body.appendChild(x);
+    }
+
+
+</script>
+<body>
+    <div class="row">
+        <div class="column">
+            <h1 align="center"> Use the color of the sky</h1>
+            <p id="con" style="margin-left:30px;margin-right:30px;">
+                A cricket set which consists of a cricket bat and a bag.
+                
+            </p>
+            <br />
+            <p style="margin-left:30px;">
+
+
+                <input type="button" id="button1" value="Display AD" name="b1" onclick="abc()" />
+                <!--<input type="button" id="button2" value="submit" name="b1" onclick="abc()"/>-->
+            </p>
+        </div>
+        <div class="column">
+            <h1 align="center"> Use the color of the sky</h1>
+            <p id="con" style="margin-left:30px;margin-right:30px;">
+
+
+Buy a complete cricket set for your child. Consists of wicket, bat, ball, guards and gloves.
+            </p>
+            <br />
+            <p style="margin-left:30px;">
+
+
+                <input type="button" id="button1" value="Display AD" name="b1" onclick="xyz()" />
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

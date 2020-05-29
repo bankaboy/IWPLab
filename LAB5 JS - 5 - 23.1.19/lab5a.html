@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+LAB 5 QUESTION A
+</title>
+<script>
+
+function factorial(num)
+{
+ var fact = 1;
+    if(num<0)
+     return 0;
+else
+{
+   
+    for(var i=num ; i>1 ; i--)
+      fact*=i;
+    return fact;
+}
+}
+
+
+function krishna() {
+  var number = document.getElementById("i").value;
+  var answer;
+  var number1 = parseInt(number);
+  var sum = 0;
+  var checksum = number1;
+  while (number1>0) {
+    digit = number1%10;
+    number1 = parseInt(number1/10);
+
+    term = factorial(digit);
+
+    sum = sum + term;
+  }
+
+  if(sum == checksum) {
+    answer = "Krishnamoorthy Number";
+  } else {
+    answer = "Not Krishnamoorthy Number";
+  }
+  document.getElementById("result").innerHTML = answer;
+}
+</script>
+</head>
+<body>
+
+<form>
+  Enter Number:<br>
+  <input type="text" id="i">
+  <br><br>
+  <input type="button" onclick="krishna()" value="click" >
+</form> 
+
+<p id="result"></p>
+
+
+</body>
+</html>

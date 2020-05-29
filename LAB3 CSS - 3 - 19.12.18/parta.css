@@ -1,0 +1,27 @@
+
+#title
+{   font: sans-serif;
+}
+
+#meat {
+    background-color:#ff0000;
+}
+
+#veg {
+    background-color:#00ff00;
+}
+
+#dairy {
+    background-color: #ffff00 ;
+}
+
+#inc {
+    font: sans-serif;
+    font-style: italic;
+}
+
+#ul {
+list-style-type: none;
+}
+
+

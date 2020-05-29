@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+LAB 5 B - ARRAY SORT
+</title>
+
+</head>
+<body>
+
+<p id = "data"></p>
+<p id = "result"></p>
+<button type="button" onclick="bubble_sort(test)">CLICK TO SORT ARRAY</button>
+
+<script>
+
+var test = [83,54,91,33,21,44];
+document.getElementById("data").innerHTML = "Original Array : " + test.toString();
+
+function swap(arr, first_Index, second_Index){
+    var temp = arr[first_Index];
+    arr[first_Index] = arr[second_Index];
+    arr[second_Index] = temp;
+}
+
+function bubble_sort(test){
+
+    var len = test.length,i, j, stop;
+
+    for (i=0; i < len; i++){
+        for (j=0, stop=len-i; j < stop; j++){
+            if (test[j] > test[j+1]){
+                swap(test, j, j+1);
+            }
+        }
+    }
+
+    document.getElementById("data").innerHTML = "New Array : " + test.toString();
+}
+
+</script>
+
+</body>
+</html>
+
