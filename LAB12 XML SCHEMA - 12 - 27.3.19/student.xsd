@@ -1,0 +1,51 @@
+
+
+<xs:attribute name="reg_no" type="xs:string" use="required"/> 
+
+<?xml version="1.0"?>
+<xs:schema 
+elementFormDefault="qualified">
+
+<xs:element name="student">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:attribute name="reg_no" type="xs:string" use="required"/> 
+      <xs:element name="name" type="xs:string"/> first and dlast name as child nodes
+        <xs:complexType>
+        <xs:sequence>
+	  <xs:element name="first_name" type="xs:string"/>
+          <xs:element name="last_name" type="xs:string"/>
+        </xs:sequence>
+       </xs:complexType>
+      </xs:element>
+      <xs:element name="age" type="xs:string"/>
+      <xs:element name="graduate" type="xs:string"/>
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UG"/>
+      <xs:enumeration value="PG"/>
+ </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+      <xs:element name="program" type="xs:string"/>
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="btech"/>
+      <xs:enumeration value="mtech"/>
+ </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+      <xs:element name="degree" type="xs:string"/> CS,ECE,IT
+       <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CS"/>
+      <xs:enumeration value="ECE"/>
+      <xs:enumeration value="IT"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema> 
