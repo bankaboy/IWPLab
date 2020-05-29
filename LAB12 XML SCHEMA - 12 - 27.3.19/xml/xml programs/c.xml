@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="c.xsl"?>
+<messages>
+<note id="502">
+ <to>Tove</to>
+ <from>Tim</from>
+ <heading>Reminder</heading> 
+<body>Don't forget to watch FIFA!</body> 
+</note>
+<note id="50"> 
+<to>Tim</to> 
+<from>Tove</from> 
+<heading>Re: Reminder</heading> 
+<body>I will not</body> </note>
+ </messages>

@@ -1,0 +1,15 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:group name="empname">
+<xsd:sequence>
+<xsd:element name="firstname" type="xsd:string"/>
+<xsd:element name="secondname" type="xsd:string"/>
+</xsd:sequence>
+</xsd:group>
+<xsd:element name="employee" type="emptype"/>
+<xsd:complexType name="emptype">
+<xsd:sequence>
+<xsd:group ref="empname"/>
+<xsd:element name="address" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

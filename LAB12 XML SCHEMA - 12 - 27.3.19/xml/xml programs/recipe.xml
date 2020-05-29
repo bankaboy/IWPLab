@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="recipe.css"?>
+
+<recipe source="Marjorie">
+
+<dish>Southern Corn Bread</dish>
+
+<ingredients>
+
+<ingredient>
+<quantity>1 cup</quantity>
+<component>flour</component>
+</ingredient>
+
+<ingredient>
+<quantity>4 tablespoons</quantity>
+<component>Royal Baking Powder</component>
+</ingredient>
+
+<ingredient>
+<quantity>1/2 teaspoon</quantity>
+<component>salt</component>
+</ingredient>
+
+<ingredient>
+<quantity>1 cup</quantity>
+<component>corn meal</component>
+</ingredient>
+
+<ingredient>
+<quantity>11/2 cups</quantity>
+<component>whole milk</component>
+</ingredient>
+
+<ingredient>
+<quantity>4 tablespoons</quantity>
+<component>melted butter</component>
+</ingredient>
+
+</ingredients>
+
+<directions>
+<step>Sift flour, baking powder, sugar &amp; salt together.</step>
+<step>Add 1 cup corn meal.</step>
+<step>
+Beat egg in cup and add beaten egg and 11/2 cups whole
+milk to make a batter. Stir well.
+</step>
+<step>
+Add melted shortening and beat until light and thoroughly mixed.
+</step>
+<step>
+Pour into greased shallow pan or greased muffin rings.
+</step>
+<step>
+Bake in hot oven at <temperature>425 F</temperature> for
+<duration>25 minutes</duration>.
+</step>
+<step optional="yes">
+Cut into squares if cooked in shallow pan.
+</step>
+</directions>
+<story>
+This food is well prepared by <person> cooks </person> in chennai,
+Many persons used to like this in <city> Chennai </city>,
+<state> Tamil Nadu </state>.
+</story>
+</recipe>

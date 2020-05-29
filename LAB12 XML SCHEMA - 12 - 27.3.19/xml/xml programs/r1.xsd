@@ -1,0 +1,10 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="employeephone" type="phoneno"/>
+<xsd:simpleType name=“phoneno”>
+<xsd:restriction base=“xsd:string”>
+<xsd:length value=“8”/>
+<xsd:pattern value=“\d{3}-\d{4}”/>
+</xsd:restriction>
+</xsd:simpleType>
+
+</xsd:schema>

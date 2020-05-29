@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookdetails SYSTEM "book.dtd">
+<bookdetails>
+    <book bid="101">
+        <name>WS book</name>
+        <author>Catherine</author>
+        <price>120</price>
+        <publisher>Apress</publisher>
+    </book>
+    <book bid="102">
+        <name>WS java book</name>
+        <author>Carolyn</author>
+        <price>120</price>
+        <publisher>&ISBN;Apress</publisher>
+    </book>
+</bookdetails>

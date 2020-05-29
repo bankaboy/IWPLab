@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s1.xsd">
+	<firstname>a</firstname>
+	<lastname>b</lastname>
+	<desig>manager</desig>
+<department>IT</department>
+	</employee>

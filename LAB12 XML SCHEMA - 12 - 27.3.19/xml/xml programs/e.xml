@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="e.xsl"?>
+<projects>
+<project>
+<product>Printer</product>
+<id>111</id>
+<price>111</price>
+</project>
+<project>
+<product>Laptop</product>
+<id>222</id>
+<price>989</price>
+</project>
+<project>
+<product>Keyboard</product>
+<id>555</id>
+<price>129</price>
+</project>
+<project>
+<product>Mouse</product>
+<id>666</id>
+<price>25</price>
+</project>
+</projects>

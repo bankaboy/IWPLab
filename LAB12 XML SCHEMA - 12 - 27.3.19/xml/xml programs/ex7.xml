@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<foo>
+<bar><![CDATA[<test>content! &gt; </test>]]></bar>
+</foo>

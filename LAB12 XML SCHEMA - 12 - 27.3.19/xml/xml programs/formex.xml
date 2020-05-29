@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ev="http://www.w3.org/2001/xml-events"
+xmlns:xforms="http://www.w3.org/2002/xforms/cr">
+<head> <xforms:model>
+<xforms:submission localfile="data.xml"/>
+<xforms:instance> <data xmlns="">
+<input>Hello!</input>
+<select>1</select>
+<selectboolean>true</selectboolean>
+<message>Hello!</message>
+</data> </xforms:instance>
+</xforms:model> </head>
+<body>
+<h1>Using XForms</h1> <p>Input Control</p>
+<xforms:input ref="/data/input"></xforms:input>
+<p>Select Control</p>
+<xforms:select appearance="full" ref="/data/select">
+<xforms:item>
+<xforms:value>1</xforms:value>
+<xforms:label>Item 1</xforms:label>
+</xforms:item>
+<xforms:item>
+<xforms:value>2</xforms:value>
+<xforms:label>Item 2</xforms:label>
+</xforms:item>
+<xforms:item>
+<xforms:value>3</xforms:value>
+<xforms:label>Item 3</xforms:label>
+</xforms:item>
+</xforms:select>
+<p>Button</p>
+<xforms:trigger>
+<xforms:label>Click Me</xforms:label>
+<xforms:message ev:event="click" level="ephemeral"
+ref="/data/message"/>
+</xforms:trigger>
+<p>Select Boolean</p>
+<xforms:selectboolean ref="/data/selectboolean">
+<xforms:label>Click Me</xforms:label>
+</xforms:selectboolean>
+<p>Submit and Reset Buttons</p>
+<xforms:submit>
+<xforms:label>Submit</xforms:label>
+</xforms:submit>
+<xforms:trigger>
+<xforms:label>Reset</xforms:label>
+<xforms:reset ev:event="DOMActivate"/>
+</xforms:trigger>
+</body>
+</html>

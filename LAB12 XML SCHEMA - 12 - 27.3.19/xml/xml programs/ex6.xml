@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!DOCTYPE copyright [
+  <!ELEMENT copyright (#PCDATA)>
+  <!ENTITY c SYSTEM "C:/Users/Administrator/Desktop/unit2/er.dtd">
+]>
+<copyright>&c;</copyright>
+

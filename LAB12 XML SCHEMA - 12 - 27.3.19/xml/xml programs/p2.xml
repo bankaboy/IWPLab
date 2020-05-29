@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="product.xsd">
+	<product>
+		<productname>aa</productname>
+		<description>bb</description>
+		<price>123</price>
+		<quantity>12</quantity>
+	</product>
+</productdata>

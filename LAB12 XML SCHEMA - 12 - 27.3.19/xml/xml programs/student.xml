@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentdetail SYSTEM "C:\Users\Administrator\Desktop\unit2\student.dtd">
+<studentdetail>
+<student>
+<id>1</id>
+<name>abc</name>
+<mark>100</mark>
+</student>
+</studentdetail>

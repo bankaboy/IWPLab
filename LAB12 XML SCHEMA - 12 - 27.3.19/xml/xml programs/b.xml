@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="b.xsl"?>
+<states>
+<state>
+<name>California</name>
+<population units="people">33871648</population><!--2000 census-->
+<capital>Sacramento</capital>
+<bird>Quail</bird>
+<flower>Golden Poppy</flower>
+<area units="square miles">155959</area>
+</state>
+<state>
+<name>New York</name>
+<population units="people">18976457</population><!--2000 census-->
+<capital>Albany</capital>
+<bird>Bluebird</bird>
+<flower>Rose</flower>
+<area units="square miles">47214</area>
+</state>
+</states>

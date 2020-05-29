@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="x1.xsd">
+	<product prodid="P001" category="Toy">
+		<productname>hot wheels</productname>
+		<description>car collection</description>
+		<price>1000</price>
+		<quantity>5</quantity>
+	</product>
+</productdata>

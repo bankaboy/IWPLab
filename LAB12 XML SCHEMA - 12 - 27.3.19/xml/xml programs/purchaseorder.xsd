@@ -1,0 +1,22 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="www.abc.com/purchase" xmlns:prd="www.abc.com/purchase">
+<include schemaLocation="potype.xsd"/>
+<element name="purchaseorder" type="prd:purord"/>
+<complexType name="purord">
+<sequence>
+<element name="order" type="prd:ord"/>
+</sequence>
+<attribute name="prodid" type="prd:prstring"/>
+<attribute name="orderid" type="prd:orstring" use="required"/>
+</complexType>
+<complexType name="ord">
+<sequence>
+<element name="DATE" type="date"/>
+<element name="productname" type="string"/>
+<element name="suppliername" type="string"/>
+<element name="address" type="string"/>
+<element name="quantity" type="positiveInteger"/>
+<element name="priceperqty" type="positiveInteger"/>
+</sequence>
+</complexType>
+</schema>
+

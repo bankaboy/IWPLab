@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prd:purchaseorder xmlns:prd="www.abc.com/purchase" orderid="o001" prodid="p001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.abc.com/purchase purchaseorder.xsd">
+	<order>
+		<DATE>2000-02-13</DATE>
+		<productname>barbie doll</productname>
+		<suppliername>barbie inc</suppliername>
+		<address>barbie avenue</address>
+		<quantity>123</quantity>
+		<priceperqty>1000</priceperqty>
+	</order>
+</prd:purchaseorder>

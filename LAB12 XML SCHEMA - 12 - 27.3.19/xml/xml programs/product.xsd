@@ -1,0 +1,16 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="productdata" type="prdata"/>
+<xsd:complexType name="prdata">
+<xsd:sequence>
+<xsd:element name="product" type="prdt" maxOccurs="unbounded" />
+</xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="prdt">
+<xsd:sequence>
+<xsd:element name="productname" type="xsd:string"/>
+<xsd:element name="description" type="xsd:string"/>
+<xsd:element name="price" type="xsd:positiveInteger" />
+<xsd:element name="quantity" type="xsd:nonNegativeInteger"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

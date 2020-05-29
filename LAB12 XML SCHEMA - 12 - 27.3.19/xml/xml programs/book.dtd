@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bookdetails (book+)>
+<!ELEMENT book (name+, author+, price+, publisher?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ATTLIST book bid CDATA #REQUIRED>
+<!ENTITY ISBN "ISBN for book">
