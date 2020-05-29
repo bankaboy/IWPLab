@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema">
+<key name='student' regno='17BC1019'>
+<name>
+<first_name>Dhrubanka</first_name>
+<last_name>Dutta</last_name>
+</name>
+<age>19</age>
+<graduate>ug</graduate>
+<program>btech</program>
+<degree>
+          <s:enumeration value="CS" />
+          <s:enumeration value="ECE" />
+          <s:enumeration value="IT" />
+</degree>
+</key>
+</definitions>

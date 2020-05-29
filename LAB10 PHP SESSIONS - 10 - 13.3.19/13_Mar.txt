@@ -1,0 +1,17 @@
+Q2:
+Assume that you are registering courses in your FFCS login. Enter your username and password. If the credentials are authenticated, start a session and display a catalogue page which displays the available courses and its credits for a semester with checkboxes for each course for selection. Perform the following:
+-> Check the courses you want to register and register them by clicking a submit button.
+-> The total number of credits for the selected courses should be less than or equal to 27.
+-> If so, display all the selected courses and the total in a separate page which should have a link for sign-out during which the session will be terminated.
+
+Q1:
+Implement the following cookies using PHP
+
+Create a cookie with a value IWP.
+The cookie should expire in 3 days
+Check whether the cookie is present in the website. If so display else through an error
+Check whether the cookie is enabled or not. Print the status
+Delete the created cookie before an hour
+Check whether the cookie is disabled or not. Print the status
+
+
